@@ -1,5 +1,5 @@
-def reverse_each_word("Hello there, and how are you?")
-  array= "Hello there, and how are you?".split(", ")
+def reverse_each_word(sentance)
+  sentance.split(", ")
   array.each do |word|
     puts "#{word.reverse}"
   end
